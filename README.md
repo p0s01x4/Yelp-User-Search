@@ -9,10 +9,16 @@ businesses from various business categories that have the properties (attributes
 
 ![alt text](https://github.com/pratiksaha37/Yelp-User-Search/blob/master/Yelp%20Review%20Search.JPG)
 
+# Business Search: A GUI where the user can search for movies that match the criteria given.
+o Browse through main categories for the businesses (See Appendix C); select the business
+attributes that user wants to search for;
+**note:** The list of the main categories is given in Appendix-C. All other categories that appear in the
+business objects are sub-categories. Such a distinction is made for easier browsing of the business
+categories.
 
-The usage flow of the GUI is as follows:
-1) Once the application is loaded, main categories are loaded from the backend database. Note
-that, selection of business main categories (single or multiple) is required. For instance, assume
+# The usage flow of the GUI is as follows:
+1) Once the application is loaded, main categories are loaded from the backend database. 
+**Note that**, selection of business main categories (single or multiple) is required. For instance, assume
 that use selects Restaurants as the main category.
 2) The subcategories matching the main category selection will be listed under subcategories
 column. Since user selected Restaurants in previous step, only sub-categories values that its
@@ -31,3 +37,17 @@ only attribute values that appeared in business with main-category = Restaurants
 selects Outdoor Sitting as the desired attribute.
 4) Review column is the next selection. You can specify review duration (from/to) and enter the
 star and vote values into the text box. The attributes under the Review column are also optional.
+
+
+![alt text](https://github.com/pratiksaha37/Yelp-User-Search/blob/master/Business%20Query.JPG)
+
+
+# User Search:  The usage flow of the GUI is as follows:
+1) User can specify user search using attributes such as member_since, review_count, number of
+friends, verage stars and number of friends.
+2) Clicking on “Execute User Query” will show user matches, yelping_since and average_stars
+3) select a certain user in the search results and list all the reviews given by that user.
+**Note:** The user can do either a Business search or User search (not both) at any given time through the GUI.
+**Note:** All data displayed on the GUI should be kept in the database and should be retrieved from it when needed.
+You are not allowed to create internal data structures to store data.
+
