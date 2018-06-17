@@ -1,3 +1,3 @@
 # Yelp-User-Search
 
-![alt text](Yelp-User-Search/Yelp Review Search.JPG)
+![alt text](https://github.com/pratiksaha37/Yelp-User-Search/blob/master/Yelp%20Review%20Search.JPG)
