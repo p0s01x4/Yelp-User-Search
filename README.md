@@ -51,3 +51,4 @@ friends, verage stars and number of friends.
 **Note:** All data displayed on the GUI should be kept in the database and should be retrieved from it when needed.
 You are not allowed to create internal data structures to store data.
 
+![alt text](https://github.com/pratiksaha37/Yelp-User-Search/blob/master/User%20Search.JPG)
